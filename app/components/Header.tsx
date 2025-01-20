@@ -1,6 +1,5 @@
-import { Globe } from 'lucide-react'
-import Link from 'next/link'
-import React from 'react';
+import { Globe } from "lucide-react"
+import Link from "next/link"
 
 export default function Header() {
   return (
@@ -11,10 +10,18 @@ export default function Header() {
           <span className="text-xl font-bold text-gray-800">Ayywa Trading Company LLC</span>
         </Link>
         <div className="space-x-4">
-          <Link href="#about" className="text-gray-600 hover:text-blue-600">About</Link>
-          <Link href="#services" className="text-gray-600 hover:text-blue-600">Services</Link>
-          <Link href="#global-presence" className="text-gray-600 hover:text-blue-600">Global Presence</Link>
-          <Link href="#contact" className="text-gray-600 hover:text-blue-600">Contact</Link>
+          <Link href="#about" className="text-gray-600 hover:text-blue-600">
+            About
+          </Link>
+          <Link href="#services" className="text-gray-600 hover:text-blue-600">
+            Services
+          </Link>
+          <Link href="#global-presence" className="text-gray-600 hover:text-blue-600">
+            Global Presence
+          </Link>
+          <Link href="#contact" className="text-gray-600 hover:text-blue-600">
+            Contact
+          </Link>
         </div>
       </nav>
     </header>
